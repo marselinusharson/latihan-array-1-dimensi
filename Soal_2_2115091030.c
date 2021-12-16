@@ -39,9 +39,10 @@ int main (){
 	printf ("\nnilai maksimum : %i", max);
 
 	//menentukan jenis bilangan setelah nilai max
-		if 	( posmax  == n){
+		if ( posmax  == n){
 			printf("\nNULL\n");
-		} else { 
+		}
+		if(posmax!=n){ 
 			x = arr[posmax + 1];
 			if (x % 2!= 0 ){
 				printf("\nNilai setelah nilai max merupakan: Bilangan Ganjil\n");
