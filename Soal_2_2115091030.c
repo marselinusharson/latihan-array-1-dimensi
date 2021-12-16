@@ -33,21 +33,19 @@ int main (){
 	for (i=2;i<=n;i++){
 		if (arr[i] > max){
 		max = arr[i];
-		posmax = 1;	
+		posmax = i;	
 		}
 	}
 	printf ("\nnilai maksimum : %i", max);
 
 	//menentukan jenis bilangan setelah nilai max
 		if ( posmax  == n){
-			printf("\nNULL\n");
-		}
-		if(posmax!=n){ 
+			printf("\nnilai setelahanya: NULL\n");
+		}else{ 
 			x = arr[posmax + 1];
 			if (x % 2!= 0 ){
 				printf("\nNilai setelah nilai max merupakan: Bilangan Ganjil\n");
-			}
-			if(x%2 == 0){
+			}else{
 				printf("\nnilai setelah nilai max merupakan: Bilangan Genap\n");
 			}
 		}
