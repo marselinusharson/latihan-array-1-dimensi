@@ -45,7 +45,8 @@ int main (){
 			x = arr[posmax + 1];
 			if (x % 2!= 0 ){
 				printf("\nNilai setelah nilai max merupakan: Bilangan Ganjil\n");
-			}else {
+			}
+			if(x%2 == 0){
 				printf("\nnilai setelah nilai max merupakan: Bilangan Genap\n");
 			}
 		}
