@@ -37,7 +37,7 @@ int main (){
 	printf("\nnilai minimum: %d", min);
 		if 	( posmin  == 1){
 			printf("\nNULL\n");
-		} else { 
+		} else if(posmin>1){ 
 			x = arr[posmin - 1];
 			if (x % 2!= 0 ){
 				printf("\nNilai sebelumnya: Ganjil\n");
